@@ -21,7 +21,7 @@ body {
 .jumbotron,
 #contact {
     background-image: linear-gradient(
-        to right,
+        to top,
         #939597,
         #79afba,
         #61cab3,
@@ -197,6 +197,7 @@ h2 {
     border: 1px solid #808080;
     box-shadow: inset 0px 3px 8px -1px #22678f;
     text-align: center;
+    font-family: 'Bangers', cursive;
 }
 
 h3,
