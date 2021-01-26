@@ -177,6 +177,7 @@ h6 {
     font-weight: 600;
     color: #434442;
 }
+
 #navbarNMenu {
     font-size: large;
 }
@@ -214,20 +215,21 @@ i,
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #93959780; /* Set a background color */
+    background-color: #f4f4f480; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Rounded corners */
     font-size: 18px; /* Increase font size */
     text-shadow: 1px 1px 1px #22678f;
 }
 
 #myBtn:hover {
-    background-color: rgba(
-        107,
-        107,
-        107,
-        0.8
-    ); /* Add a dark-grey background on hover */
+    background-color: #6b6b6b80; /* Add a dark-grey background on hover */
+}
+
+.hide {
+    display: none;
 }
