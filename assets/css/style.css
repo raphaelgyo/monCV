@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: radial-gradient(
+        circle,
+        #939597,
+        #79afba,
+        #61cab3,
+        #95dd83,
+        #f5df4d
+    );
+}
+
+.jumbotron,
+#contact {
+    background-image: linear-gradient(
+        to right,
+        #939597,
+        #79afba,
+        #61cab3,
+        #95dd83,
+        #f5df4d
+    );
+    box-shadow: 0px 3px 8px -3px #22678f;
+}
+
+.dev-icons,
+.social-icons {
+    font-size: 3rem;
+}
+
+#maPhoto {
+    width: 100px;
+    height: 100px;
+}
+
+.adobe {
+    width: 45px;
+    height: 45px;
+}
+
+#exp i {
+    margin-right: 10px;
+}
+
+#subheading {
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.gras,
+.text-success {
+    font-weight: 600;
+}
+
+/* couleur menu hamburger */
+.fa-hamburger {
+    color: #0d1117;
+}
+
+/* couleurs icônes fontwesome.com */
+.fa-html5 {
+    color: #de4b25;
+}
+
+.fa-css3-alt {
+    color: #006db5;
+}
+
+.fa-js {
+    color: #f0d91d;
+}
+
+.fa-php {
+    color: #7478ae;
+}
+
+.fa-wordpress {
+    color: #0081b7;
+}
+
+.fa-bootstrap {
+    color: #6d41a3;
+}
+
+.fa-atom {
+    color: #9ed38e;
+}
+
+.fa-git {
+    color: #e94f33;
+}
+
+/* couleurs icônes réseaux sociaux */
+.fa-facebook {
+    color: #1877f2;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-github {
+    color: #24292e;
+}
+
+.fa-linkedin {
+    color: #0a66c2;
+}
+
+.fa-discord {
+    color: #738adb;
+}
+
+/* couleurs des centres d'intérêts */
+.fa-film {
+    color: #434442;
+}
+
+.fa-music {
+    color: #0d1117;
+}
+
+.fa-gamepad {
+    color: #d39952;
+}
+
+.fa-camera-retro {
+    color: #ffa600;
+}
+
+.fa-chess {
+    color: #c8e2cc;
+}
+
+.fa-dice {
+    color: #9d8376;
+}
+
+/* couleur trophée */
+.fa-trophy,
+.fa-hard-hat {
+    color: #ffd700;
+    font-size: 2em;
+}
+
+.fa-at {
+    font-size: 1.3em;
+    color: #434442;
+}
+
+/* couleur code, bézier, diplômes */
+.fa-laptop-code,
+.fa-bezier-curve,
+.fa-graduation-cap {
+    font-size: 1em;
+    color: #434442;
+}
+
+/* font titres */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #434442;
+}
+#navbarNMenu {
+    font-size: large;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px #22678f;
+}
+
+h2 {
+    text-shadow: 2px 2px 2px #22678f;
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+    padding: 20px 0 20px;
+    border: 1px solid #808080;
+    box-shadow: inset 0px 3px 8px -1px #22678f;
+    text-align: center;
+}
+
+h3,
+h4,
+h5,
+h6,
+.btn,
+.resume-date,
+i,
+#contact {
+    text-shadow: 1px 1px 1px #22678f;
+}
+
+/* bouton scrollTop */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #93959780; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    text-shadow: 1px 1px 1px #22678f;
+}
+
+#myBtn:hover {
+    background-color: rgba(
+        107,
+        107,
+        107,
+        0.8
+    ); /* Add a dark-grey background on hover */
+}
