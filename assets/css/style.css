@@ -232,8 +232,10 @@ i,
     border-radius: 50%; /* Rounded corners */
     font-size: 18px; /* Increase font size */
     text-shadow: 1px 1px 1px #22678f;
+    box-shadow: 0px 3px 8px -1px #22678f;
 }
 
 #myBtn:hover {
     background-color: #6b6b6b80; /* Add a dark-grey background on hover */
+    box-shadow: inset 0px 3px 8px -1px #22678f;
 }
