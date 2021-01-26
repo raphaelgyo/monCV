@@ -198,6 +198,7 @@ h2 {
     box-shadow: inset 0px 3px 8px -1px #22678f;
     text-align: center;
     font-family: 'Bangers', cursive;
+    font-size: 40px;
 }
 
 h3,
@@ -209,10 +210,6 @@ h6,
 i,
 #contact {
     text-shadow: 1px 1px 1px #22678f;
-}
-
-#about {
-    font-size: 20px;
 }
 
 /* bouton scrollTop */
