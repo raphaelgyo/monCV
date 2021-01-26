@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html,
@@ -168,7 +169,18 @@ body {
 }
 
 /* font titres */
-h1,
+
+#navbarNMenu {
+    font-size: large;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-weight: 600;
+    color: #434442;
+    text-shadow: 2px 2px 2px #22678f;
+}
+
 h2,
 h3,
 h4,
@@ -176,14 +188,6 @@ h5,
 h6 {
     font-weight: 600;
     color: #434442;
-}
-
-#navbarNMenu {
-    font-size: large;
-}
-
-h1 {
-    text-shadow: 2px 2px 2px #22678f;
 }
 
 h2 {
@@ -204,6 +208,10 @@ h6,
 i,
 #contact {
     text-shadow: 1px 1px 1px #22678f;
+}
+
+#about {
+    font-size: 20px;
 }
 
 /* bouton scrollTop */
@@ -228,8 +236,4 @@ i,
 
 #myBtn:hover {
     background-color: #6b6b6b80; /* Add a dark-grey background on hover */
-}
-
-.hide {
-    display: none;
 }
