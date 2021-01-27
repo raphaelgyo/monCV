@@ -9,15 +9,16 @@
             href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
             rel="stylesheet"
         />
-        <!-- script de fontawesome.com pour les icônes -->
-        <script
-            src="https://kit.fontawesome.com/3e5082cb35.js"
-            crossorigin="anonymous"
-        ></script>
+        <!-- CDNJs CSS-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        />
         <title>
             Raphaël Granizo y Oliver — Design & Développement Web — Amiens
         </title>
     </head>
+
     <body>
         <div class="container">
             <!-- NAVBAR -->
@@ -54,14 +55,14 @@
                         <a class="nav-item nav-link active" href="#pressbook"
                             >Portfolio</a
                         >
+                        <a class="nav-item nav-link active" href="#skills"
+                            >Compétences</a
+                        >
                         <a class="nav-item nav-link active" href="#exp"
-                            >Parcours</a
+                            >Formation</a
                         >
                         <a class="nav-item nav-link active" href="#expPro"
                             >Expériences</a
-                        >
-                        <a class="nav-item nav-link active" href="#skills"
-                            >Compétences</a
                         >
                         <a class="nav-item nav-link active" href="#interest"
                             >Centres d'intérêts</a
@@ -72,9 +73,13 @@
                     </div>
                 </div>
             </nav>
+
             <!-- HEAD JUMBOTRON -->
             <div class="jumbotron">
                 <h1 class="display-3 text-center">Raphaël Granizo y Oliver</h1>
+                <h1 class="display-5 text-center">
+                    Designer Web & Développeur Web Junior
+                </h1>
                 <hr class="my-4" />
                 <!-- citation -->
                 <blockquote class="blockquote mb-0 text-center">
@@ -86,18 +91,29 @@
             <!-- Rubriques -->
             <!-- section à propos/about -->
             <section class="px-3 mt-5" id="about">
-                <h2 class="mb-3">À propos</h2>
+                <h2 class="mb-3 BG">À propos</h2>
+                <h3 class="text-justify HI">
+                    Bonjour à toutes et à tous, je suis Raphaël
+                </h3>
                 <p class="text-justify">
-                    D’un naturel curieux et passionné par les arts et la culture
-                    au sens large, mes connaissances de la communication, du web
-                    et du numérique me poussent à être créatif et force de
-                    proposition, et à transformer théories, stratégies et
+                    Je suis un "jeune" passionné par l'art, la musique, le
+                    cinéma, les jeux vidéo et la culture au sens large.
+                </p>
+                <p class="text-justify">
+                    Je me suis découvert depuis peu une nouvelle passion : le
+                    web. J'ai acquis durant ma formation de développeur web des
+                    compétences solides, aussi bien en front-end qu'en back-end.
+                </p>
+                <p class="text-justify">
+                    D’un naturel curieux, mes connaissances de la communication,
+                    du web et du numérique me poussent à être créatif et force
+                    de proposition, et à transformer théories, stratégies et
                     techniques en solutions visuelles.
                 </p>
             </section>
             <!-- section portfolio/pressbook -->
             <section class="px-3 mt-3" id="pressbook">
-                <h2 class="mb-3">Portfolio</h2>
+                <h2 class="mb-3 BG">Portfolio</h2>
                 <!-- carousel portfolio -->
                 <div
                     id="carouselControls"
@@ -244,9 +260,92 @@
                     >
                 </div>
             </section>
-            <!-- <hr class="m-0" /> -->
+
+            <!-- Section compétences -->
+            <section class="px-3 mt-3 text-center" id="skills">
+                <h2 class="mb-3 BG">Mes compétences</h2>
+                <div class="subheading mb-2">
+                    <h3>Logiciels DAO & PAO</h3>
+                </div>
+                <ul class="list-inline design-icons">
+                    <li class="list-inline-item">
+                        <img
+                            src="assets/img/logoPs.png"
+                            alt="logo de Adobe Photoshop"
+                            title="Adobe Photoshop"
+                            class="adobe"
+                        />
+                    </li>
+                    <li class="list-inline-item">
+                        <img
+                            src="assets/img/logoAi.png"
+                            alt="logo de Adobe Illustrator"
+                            title="Adobe Illustrator"
+                            class="adobe"
+                        />
+                    </li>
+                    <li class="list-inline-item">
+                        <img
+                            src="assets/img/logoId.png"
+                            alt="logo de Adobe InDesign"
+                            title="Adobe InDesign"
+                            class="adobe"
+                        />
+                    </li>
+                    <li class="list-inline-item">
+                        <img
+                            src="assets/img/logoPr.png"
+                            alt="logo de Adobe Premiere Pro"
+                            title="Adobe Premiere Pro"
+                            class="adobe"
+                        />
+                    </li>
+                    <li class="list-inline-item">
+                        <img
+                            src="assets/img/logoAe.png"
+                            alt="logo de Adobe After Effects"
+                            title="Adobe After Effects"
+                            class="adobe"
+                        />
+                    </li>
+                </ul>
+
+                <hr class="my-3" />
+
+                <div class="subheading mb-2">
+                    <h3>Langages de programmation & Outils</h3>
+                </div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item">
+                        <i class="fab fa-html5" title="HTML5"></i>
+                    </li>
+                    <li class="list-inline-item" title="CSS3">
+                        <i class="fab fa-css3-alt"></i>
+                    </li>
+                    <li class="list-inline-item" title="JavaScript">
+                        <i class="fab fa-js"></i>
+                    </li>
+                    <li class="list-inline-item" title="Bootstrap">
+                        <i class="fab fa-bootstrap"></i>
+                    </li>
+                    <li class="list-inline-item" title="PHP">
+                        <i class="fab fa-php"></i>
+                    </li>
+                    <li class="list-inline-item" title="Wordpress">
+                        <i class="fab fa-wordpress"></i>
+                    </li>
+                    <li class="list-inline-item" title="git">
+                        <i class="fab fa-git"></i>
+                    </li>
+                    <li class="list-inline-item" title="github">
+                        <i class="fab fa-github"></i>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- section parcours -->
             <section class="px-3 mt-3" id="exp">
-                <h2 class="mb-3">Mon parcours</h2>
+                <h2 class="mb-3 BG">Formation</h2>
                 <div
                     class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3"
                 >
@@ -341,6 +440,11 @@
                             entreprise) — BGE Picardie — Amiens
                         </div>
                         <p>
+                            Porteur de projet de création d'une micro-entreprise
+                            de design web & développement web et communication
+                            digitale.
+                        </p>
+                        <p>
                             <i class="fas fa-trophy"></i> Certification obtenue
                             en novembre 2020.
                         </p>
@@ -356,24 +460,7 @@
                                     financiers disponibles ainsi que les
                                     compétences mobilisables.
                                 </p>
-                                <!-- <ul>
-                                    <li>
-                                        Caractériser les impacts d’une création
-                                        ou d’une reprise d’entreprise dans sa
-                                        sphère privée.
-                                    </li>
-                                    <li>
-                                        Valider l’adéquation entre ses
-                                        aspirations personnelles et
-                                        professionnelles et la fonction
-                                        entrepreneuriale.
-                                    </li>
-                                    <li>
-                                        Calibrer le projet en prenant en compte
-                                        l’ensemble des ressources matérielles et
-                                        humaines disponibles.
-                                    </li>
-                                </ul> -->
+
                                 <h5>Étude et Analyse du Marché.</h5>
                                 <p>
                                     Conforter ou infirmer une opportunité de
@@ -381,26 +468,7 @@
                                     réalisant l’étude active de son marché et de
                                     son environnement.
                                 </p>
-                                <!-- <ul>
-                                    <li>
-                                        Recueillir les informations nécessaires
-                                        à une étude de marché et de la
-                                        concurrence.
-                                    </li>
-                                    <li>
-                                        Analyser les résultats d’une étude de
-                                        marché pour définir sa clientèle.
-                                    </li>
-                                    <li>
-                                        Rechercher les textes légaux et
-                                        règlementaires susceptibles d’encadrer
-                                        l’activité de l’entreprise.
-                                    </li>
-                                    <li>
-                                        Identifier et initier des partenariats
-                                        possibles.
-                                    </li>
-                                </ul> -->
+
                                 <h5>
                                     Conception et planification de la stratégie
                                     marketing et commerciale.
@@ -411,30 +479,7 @@
                                     les moyens à mettre en oeuvre pour atteindre
                                     le chiffre d’affaires estimé.
                                 </p>
-                                <!-- <ul>
-                                    <li>
-                                        Définir sa cible, son offre et sa zone
-                                        de chalandise.
-                                    </li>
-                                    <li>
-                                        Définir les actions et ressources à
-                                        mobiliser dans le cadre du plan
-                                        marketing et/ou commercial.
-                                    </li>
-                                    <li>
-                                        Mettre en place une politique de
-                                        conquête et de fidélisation de la
-                                        clientèle.
-                                    </li>
-                                    <li>
-                                        Choisir le mode de distribution adapté à
-                                        la stratégie commerciale.
-                                    </li>
-                                    <li>
-                                        Effectuer les différents calculs
-                                        relatifs au suivi des ventes.
-                                    </li>
-                                </ul> -->
+
                                 <h5>
                                     Planification, organisation et gestion des
                                     méthodes et outils de l’image, de
@@ -446,20 +491,7 @@
                                     mettre en oeuvre afin de construire l’image
                                     de l’entreprise.
                                 </p>
-                                <!-- <ul>
-                                    <li>
-                                        Définir l’identité visuelle de son
-                                        entreprise.
-                                    </li>
-                                    <li>
-                                        Définir sa politique de communication en
-                                        choisissant médias et messages.
-                                    </li>
-                                    <li>
-                                        Planifier les actions de communication.
-                                    </li>
-                                    <li>Produire un pitch commercial.</li>
-                                </ul> -->
+
                                 <h5>Étude financière.</h5>
                                 <p>
                                     Établir le budget prévisionnel en appréciant
@@ -467,28 +499,7 @@
                                     besoins en financement pour évaluer la
                                     rentabilité et la viabilité de l’entreprise.
                                 </p>
-                                <!-- <ul>
-                                    <li>
-                                        Calculer l’ensemble de ses besoins
-                                        financiers.
-                                    </li>
-                                    <li>
-                                        Identifier les sources de financements
-                                        potentielles.
-                                    </li>
-                                    <li>
-                                        Elaborer les documents prévisionnels.
-                                    </li>
-                                    <li>
-                                        Calculer le seuil de rentabilité de son
-                                        activité.
-                                    </li>
-                                    <li>
-                                        Elaborer une présentation visuelle et
-                                        argumentée de ses perspectives et
-                                        objectifs financiers.
-                                    </li>
-                                </ul> -->
+
                                 <h5>
                                     Mise en oeuvre des choix sur les éléments
                                     juridiques, fiscaux, sociaux.
@@ -500,24 +511,7 @@
                                     contraintes et ambitions de l’entrepreneur
                                     afin de choisir le statut le plus adapté.
                                 </p>
-                                <!-- <ul>
-                                    <li>
-                                        Comparer les avantages et inconvénients
-                                        des différentes formes d’entreprise et
-                                        statuts du dirigeant.
-                                    </li>
-                                    <li>
-                                        Choisir la forme juridique de son
-                                        entreprise adaptée à sa situation et à
-                                        ses objectifs de développement.
-                                    </li>
-                                    <li>
-                                        Effectuer l’ensemble des démarches
-                                        administratives nécessaires à la
-                                        création ou à la reprise d’une
-                                        entreprise.
-                                    </li>
-                                </ul> -->
+
                                 <h5>
                                     Présentation du projet entrepreneurial à des
                                     tiers.
@@ -528,50 +522,15 @@
                                     convaincre des partenaires potentiels ou des
                                     décideurs.
                                 </p>
-                                <!-- <ul>
-                                    <li>
-                                        Élaborer une présentation visuelle de
-                                        l’ensemble des éléments de son projet
-                                        entrepreneurial.
-                                    </li>
-                                    <li>
-                                        Choisir des arguments percutants pour
-                                        promouvoir son projet auprès de
-                                        décideurs ou de partenaires
-                                    </li>
-                                </ul> -->
+
                                 <h5>
                                     Outils de pilotage et lancement d’activité.
                                 </h5>
-                                <!-- <ul>
-                                    <li>Suivre son activité au démarrage.</li>
-                                    <li>
-                                        Identifier les indicateurs pertinents à
-                                        mettre sous contrôle.
-                                    </li>
-                                    <li>
-                                        Créer son propre tableau de bord sous
-                                        EXCEL.
-                                    </li>
-                                    <li>
-                                        Analyser et comprendre ses résultats.
-                                    </li>
-                                </ul> -->
+
                                 <h5>
                                     Le développement durable au coeur de la
                                     stratégie entrepreneuriale.
                                 </h5>
-                                <!-- <ul>
-                                    <li>
-                                        Les enjeux du développement durable
-                                        (TRI, RSE…).
-                                    </li>
-                                    <li>Mise en place d’actions concrètes.</li>
-                                    <li>
-                                        Faire du développement durable un
-                                        facteur de différenciation et de succès.
-                                    </li>
-                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -610,7 +569,7 @@
                         </div>
                         <p>
                             <i class="fas fa-trophy"></i
-                            ><span class="gras">
+                            ><span class="text_gras">
                                 Titre professionnel — RNCP26602</span
                             >
                             obtenu en mars 2020.
@@ -777,8 +736,8 @@
                         </div>
                         <p>
                             <i class="fas fa-trophy"></i
-                            ><span class="gras">Licence</span> obtenue en 2002 &
-                            Niveau d'études en Master validé.
+                            ><span class="text_gras">Licence</span> obtenue en
+                            2002 & Niveau d'études en Master validé.
                         </p>
                     </div>
                     <div class="resume-date text-md-right">
@@ -787,10 +746,9 @@
                 </div>
             </section>
 
-            <!-- <hr class="m-0" /> -->
-
+            <!-- section Exp. Prof. -->
             <section class="px-3 mt-3" id="expPro">
-                <h2 class="mb-3">Expériences professionnelles</h2>
+                <h2 class="mb-3 BG">Expériences professionnelles</h2>
                 <div
                     class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3"
                 >
@@ -854,20 +812,10 @@
                     </button>
                 </div>
 
-                <!-- <hr class="mb-5" /> -->
-
                 <div
                     class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3"
                 >
                     <div class="resume-content">
-                        <!-- <h3 class="mb-0">
-                            <i class="fas fa-headset"></i> Téléconseiller
-                        </h3>
-
-                        <div class="subheading mb-3" id="subheading">
-                            <i class="fas fa-at"></i> ComData — Amiens
-                        </div> -->
-
                         <h4>Bouygues Télécom : SAV/Logistique</h4>
 
                         <div class="collapse" id="collapseNiv4">
@@ -1134,92 +1082,11 @@
 
             <!-- <hr class="m-0" /> -->
 
-            <section class="px-3 mt-3" id="skills">
-                <h2 class="mb-3">Mes compétences</h2>
-                <div class="subheading mb-2">
-                    <h3>Logiciels DAO & PAO</h3>
-                </div>
-                <ul class="list-inline design-icons">
-                    <li class="list-inline-item">
-                        <img
-                            src="assets/img/logoPs.png"
-                            alt="logo de Adobe Photoshop"
-                            title="Adobe Photoshop"
-                            class="adobe"
-                        />
-                    </li>
-                    <li class="list-inline-item">
-                        <img
-                            src="assets/img/logoAi.png"
-                            alt="logo de Adobe Illustrator"
-                            title="Adobe Illustrator"
-                            class="adobe"
-                        />
-                    </li>
-                    <li class="list-inline-item">
-                        <img
-                            src="assets/img/logoId.png"
-                            alt="logo de Adobe InDesign"
-                            title="Adobe InDesign"
-                            class="adobe"
-                        />
-                    </li>
-                    <li class="list-inline-item">
-                        <img
-                            src="assets/img/logoPr.png"
-                            alt="logo de Adobe Premiere Pro"
-                            title="Adobe Premiere Pro"
-                            class="adobe"
-                        />
-                    </li>
-                    <li class="list-inline-item">
-                        <img
-                            src="assets/img/logoAe.png"
-                            alt="logo de Adobe After Effects"
-                            title="Adobe After Effects"
-                            class="adobe"
-                        />
-                    </li>
-                </ul>
-
-                <hr class="my-5" />
-
-                <div class="subheading mb-2">
-                    <h3>Langages de programmation & Outils</h3>
-                </div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item">
-                        <i class="fab fa-html5" title="HTML5"></i>
-                    </li>
-                    <li class="list-inline-item" title="CSS3">
-                        <i class="fab fa-css3-alt"></i>
-                    </li>
-                    <li class="list-inline-item" title="JavaScript">
-                        <i class="fab fa-js"></i>
-                    </li>
-                    <li class="list-inline-item" title="Bootstrap">
-                        <i class="fab fa-bootstrap"></i>
-                    </li>
-                    <li class="list-inline-item" title="PHP">
-                        <i class="fab fa-php"></i>
-                    </li>
-                    <li class="list-inline-item" title="Wordpress">
-                        <i class="fab fa-wordpress"></i>
-                    </li>
-                    <li class="list-inline-item" title="git">
-                        <i class="fab fa-git"></i>
-                    </li>
-                    <li class="list-inline-item" title="github">
-                        <i class="fab fa-github"></i>
-                    </li>
-                </ul>
-            </section>
-
             <!-- <hr class="m-0" /> -->
 
             <!-- section centre d'intérêts -->
-            <section class="px-3 mt-3" id="interest">
-                <h2 class="mb-3">Mes centres d'intérêts</h2>
+            <section class="px-3 mt-3 text-center" id="interest">
+                <h2 class="mb-3 BG">Mes centres d'intérêts</h2>
                 <ul class="list-inline dev-icons">
                     <li
                         class="list-inline-item"
@@ -1232,6 +1099,9 @@
                     </li>
                     <li class="list-inline-item" title="Culture vidéo-ludique">
                         <i class="fas fa-gamepad"></i>
+                    </li>
+                    <li class="list-inline-item" title="Lecture">
+                        <i class="fas fa-book-open"></i>
                     </li>
                     <li class="list-inline-item" title="Photographie">
                         <i class="fas fa-camera-retro"></i>
@@ -1246,8 +1116,11 @@
             </section>
 
             <!-- FOOTER -->
-            <footer class="card bg-light mb-5 px-3 pt-3" id="contact">
-                <h2 class="mb-3">Me contacter</h2>
+            <footer
+                class="card bg-light mb-5 px-3 pt-3 text-center"
+                id="contact"
+            >
+                <h2 class="mb-3 BG">Me contacter</h2>
                 <p>
                     Raphaël Granizo y Oliver — 06.33.32.95.51 —
                     raphael.granizo@gmail.com
