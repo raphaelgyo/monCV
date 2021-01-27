@@ -245,3 +245,42 @@ i,
     background-color: #6b6b6b80; /* Add a dark-grey background on hover */
     box-shadow: inset 0px 3px 8px -1px #22678f;
 }
+
+/* DARK MODE CSS */
+
+.dark-mode {
+    background-image: radial-gradient(
+        circle,
+        #101614,
+        #23443f,
+        #1b494e,
+        #0c3d49,
+        #03224c
+    );
+    color: white;
+}
+
+#buttonSwitchMode {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px -1px #22678f;
+}
+
+#buttonSwitchMode:hover {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: inset 0px 3px 8px -1px #22678f;
+}
+
+#buttonSwitchMode {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px;
+    left: 20px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #22678f;
+}
