@@ -72,6 +72,10 @@ body {
     font-size: large;
 }
 
+#navbarNMenu a {
+    color: white;
+}
+
 h1 {
     font-family: 'Bangers', cursive;
     font-weight: 600;
@@ -225,7 +229,7 @@ i,
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 30px from the right */
+    right: 20px; /* Place the button 20px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -261,26 +265,22 @@ i,
 }
 
 #buttonSwitchMode {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    box-shadow: 0px 3px 8px -1px #22678f;
-}
-
-#buttonSwitchMode:hover {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    box-shadow: inset 0px 3px 8px -1px #22678f;
-}
-
-#buttonSwitchMode {
     position: fixed; /* Fixed/sticky position */
     bottom: 20px;
     left: 20px;
     z-index: 99;
+    border: none; /* Remove borders */
+    outline: none;
     cursor: pointer;
     padding: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
     font-size: 18px;
     text-shadow: 1px 1px 1px #22678f;
+    box-shadow: 0px 3px 8px -1px #22678f;
+}
+
+#buttonSwitchMode:hover {
+    box-shadow: inset 0px 3px 8px -1px #22678f;
 }
