@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Gaming</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <img
+          src="assets/img/Logo.png"
+          class="logoPerso mt-2"
+          alt="Logo de l'équipe"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-2" id="navbarNavDropdown">
+          <ul class="navbar-nav navbarCustomNB">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Notre jeu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">En savoir plus</a>
+            </li>
+          </ul>
+          <li class="navbar-nav navbarCustomNB nav-item dropdown float-right">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Langage
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Baguette</a>
+              <a class="dropdown-item" href="#">Trump</a>
+              <a class="dropdown-item" href="#">日本人</a>
+            </div>
+          </li>
+          <i class="fab fa-xbox fa-2x mr-3 ml-3"></i>
+          <i class="fab fa-steam fa-2x customMarg"></i>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid firstContainerNicolas">
+      <div id="videoDiv">
+        <video autoplay muted loop id="myVideo">
+          <source src="assets/img/image.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="text-center rowExept rounded mx-auto d-block">
+        <h1 id="TitreFirstPageN">Rejoindre l’aventure</h1>
+        <h2 id="TitreFirstPageNB">ユニークでリッチな冒険</h2>
+        <button class="myButton">
+          Acheter sur Steam <span class="ligneDroite"></span>
+        </button>
+        <div>
+          <p class="underTitle">L'histoire - 残りを見る</p>
+          <i class="fas fa-arrow-down"></i>
+        </div>
+      </div>
+      <!-- Carousel -->
+      <div
+        class="row justify-content-center align-items-center text-center"
+        id="carousel"
+      >
+        <div class="col-lg-12 col-md-10 col-10">
+          <h1>Galerie</h1>
+        </div>
+        <div class="col-lg-1" id="prev">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="col-lg-8 col-md-10" id="galery">
+          <img src="assets/img/Sekiro_01.jpg" alt="" class="img-fluid" />
+          <img src="assets/img/Sekiro_02.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_03.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_04.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_05.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_07.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_08.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_21.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_22.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_24.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_27.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_28.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_30.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_32.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_33.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_35.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_36.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_40.jpg" alt="" class="img-fluid hidden" />
+          <img src="assets/img/Sekiro_41.jpg" alt="" class="img-fluid hidden" />
+        </div>
+        <div class="col-lg-1" id="next">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="col-lg-12 text-center" id="marginCustomBE">
+          <span id="pause"><i class="fas fa-pause"></i></span>
+          <span id="play"><i class="fas fa-play"></i></span>
+        </div>
+      </div>
+      <!-- Fin Carousel -->
+      <!-- Début Section Configuration Requises -->
+      <div
+        class="row justify-content-center text-center align-items-center"
+        id="section-specs"
+      >
+        <div class="col-10 col-md-10 col-lg-6" id="specs">
+          <div class="row justify-content-center">
+            <h1>Configurations requises</h1>
+            <div class="col-12 order-1 col-lg-6" id="left-panel">
+              <div class="row">
+                <div class="col-12 text-center mb-2">
+                  <h2>Configuration minimale</h2>
+                </div>
+                <div class="col-6 border border-danger border-left-0">
+                  <h3>Système d'exploitation</h3>
+                  <p>Windows 7 64-bit / Windows 8 64-bit / Windows 10 64-bit</p>
+                </div>
+                <div class="col-6 border border-danger border-left-0">
+                  <h3>Processeur</h3>
+                  <p>Intel Core i3-2100 / AMD FX-6300</p>
+                </div>
+                <div class="col-6 border border-danger border-left-0">
+                  <h3>Mémoire vive</h3>
+                  <p>4 GB de mémoire</p>
+                </div>
+                <div class="col-6 border border-danger border-left-0">
+                  <h3>Espace disque</h3>
+                  <p>25 GB d'espace disque disponible</p>
+                </div>
+                <div
+                  class="col-12 border border-danger border-left-0 border-bottom-0"
+                >
+                  <h3>Cartes Graphiques</h3>
+                  <p>NVIDIA GeForce GTX 760 / AMD Radeon HD 7950</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 order-2 col-lg-6" id="right-panel">
+              <div class="row">
+                <div class="col-12 text-center mb-2">
+                  <h2>Configuration recommandée</h2>
+                </div>
+                <div class="col-6 border border-danger border-right-0">
+                  <h3>Système d'exploitation</h3>
+                  <p>Windows 7 64-bit / Windows 8 64-bit / Windows 10 64-bit</p>
+                </div>
+                <div class="col-6 border border-danger border-right-0">
+                  <h3>Processeur</h3>
+                  <p>Intel Core i5-2500K / AMD Ryzen 5 1400</p>
+                </div>
+                <div class="col-6 border border-danger border-right-0">
+                  <h3>Mémoire vive</h3>
+                  <p>8 GB de mémoire</p>
+                </div>
+                <div class="col-6 border border-danger border-right-0">
+                  <h3>Espace disque</h3>
+                  <p>25 GB d'espace disque disponible</p>
+                </div>
+                <div
+                  class="col-12 border border-danger border-right-0 border-bottom-0"
+                >
+                  <h3>Cartes Graphiques</h3>
+                  <p>NVIDIA GeForce GTX 970 / AMD Radeon RX 570</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin section Config requises -->
+      <div class="row justify-content-center align-items-center" id="about">
+        <h2>Vengez-vous. Recouvrez votre honneur. Tuez avec ingéniosité.</h2>
+        <div class="col-10 col-lg-8">
+          <div class="row justify-content-center mb-5">
+            <div
+              class="col-12 order-1 order-lg-1 col-lg-6 d-flex justify-content-start"
+            >
+              <video muted autoplay loop class="video-about">
+                <source
+                  src="https://www.activision.com/cdn/sekiro/videos/Sekiro_Hero_Cinemagraph_Desktop.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div class="col-12 order-2 order-lg-2 col-lg-6">
+              <p class="text-left">
+                Dans Sekiro: Shadows Die Twice, vous incarnez le “loup à un
+                bras”, un guerrier en disgrâce défiguré, qui a frôlé la mort de
+                justesse. Assigné à la protection d'un jeune seigneur,
+                descendant d'une lignée ancienne, vous devenez la cible de
+                nombreux ennemis plus vicieux les uns que les autres, dont le
+                dangereux clan Ashina. Lorsque le jeune seigneur est capturé,
+                rien ne peut vous arrêter dans votre quête pour retrouver
+                l'honneur, même pas la mort elle-même.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center mt-5">
+            <div class="col-12 order-4 order-lg-3 col-lg-6">
+              <p class="text-left">
+                Explorez le Japon Sengoku de la fin des années 1500, une période
+                brutale marquée par un perpétuel conflit, et affrontez des
+                ennemis démesurés dans un monde sombre et torturé. Déchaînez un
+                arsenal d'outils prothétiques et de capacités de ninja
+                puissantes, en mêlant discrétion, transversalité et verticalité,
+                à des duels sanglants et sans pitié.
+              </p>
+            </div>
+            <div
+              class="col-12 order-3 order-lg-4 col-lg-6 d-flex justify-content-end"
+            >
+              <video muted autoplay loop class="video-about">
+                <source
+                  src="https://www.activision.com/cdn/sekiro/videos/Sekiro_Hero_Cinemagraph_v02_Desktop.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Partie Video-->
+      <div id="about-vid" class="row justify-content-center align-items-center">
+        <div
+          id="about-video"
+          class="embed-responsive embed-responsive-16by9 col-8"
+        >
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.youtube.com/embed/rXMX4YJ7Lks"
+          ></iframe>
+        </div>
+        <div class="col-8" id="about-text">
+          <div class="row justify-content-center">
+            <div id="about-text" class="text-center col-md-12">
+              <h5 class="text-md-center pt-5">
+                UN COMBAT <span class="text-danger">SANS FIN</span>.
+              </h5>
+            </div>
+            <p class="col-md-4 offset-md-2 text-md-right px-5 customReign">
+              <span class="text-warning">APPRENDRE</span> ET
+              <span class="text-warning">S'ADAPTER</span> SERA VOTRE CLé POUR
+              RéUSSIR
+            </p>
+            <p class="col-md-6 text-md-left px-5 textModifBER">
+              Un gameplay revu à la perfection pour une meilleure expérience,
+              des combats plus intense et raffiner son genre.
+            </p>
+            <hr id="about-line" />
+          </div>
+        </div>
+      </div>
+      <!--Partie Award-->
+      <div id="awards" class="row">
+        <div
+          class="award awardsCustomBREEH customSizeTMLP col-sm-12 col-md-12 text-center text-white mt-3"
+        >
+          <img src="assets/img/award_logo.png" /><span
+            >Game Of The Year<br />Over 200 awards</span
+          >
+        </div>
+        <div
+          class="award awardsCustomBREEH aw-middle col-md-4 col-sm-12 text-center text-white"
+        >
+          <img src="assets/img/award_logo.png" /><span
+            >20/20<br />-TheSellOut</span
+          >
+        </div>
+        <div
+          class="award awardsCustomBREEH aw-middle col-md-4 col-sm-12 text-center text-white"
+        >
+          <img src="assets/img/award_logo.png" /><span
+            >20/20<br />-IGNorant</span
+          >
+        </div>
+        <div
+          class="award awardsCustomBREEH aw-middle col-md-4 col-sm-12 text-center text-white"
+        >
+          <img src="assets/img/award_logo.png" /><span
+            >9/10<br />-TooMuchWater</span
+          >
+        </div>
+        <div class="tweet twitter1 col-lg-4 col-md-6 col-sm-12">
+          <blockquote class="twitter-tweet">
+            <p lang="ja" dir="ltr">
+              『SEKIRO: SHADOWS DIE TWICE GAME OF THE YEAR
+              EDITION』の製品アンケートにご参加いただいた方には、PC・スマートフォン・タブレット端末でお使いいただける壁紙や、Twitterヘッダー用画像をプレゼントしています。どうぞよろしくお願いいたします。<a
+                href="https://t.co/1lfmPHk6fa"
+                >https://t.co/1lfmPHk6fa</a
+              >
+              <a href="https://t.co/gml0bQBIkT">pic.twitter.com/gml0bQBIkT</a>
+            </p>
+            &mdash; FROMSOFTWARE (@fromsoftware_pr)
+            <a
+              href="https://twitter.com/fromsoftware_pr/status/1324909727218741248?ref_src=twsrc%5Etfw"
+              >November 7, 2020</a
+            >
+          </blockquote>
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
+        <div class="tweet twitter2 col-lg-4 col-md-6 col-sm-12">
+          <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">
+              *SEKIRO: SHADOWS DIE TWICE update notice* We will release the
+              latest update ver.1.06 for SEKIRO: SHADOWS DIE TWICE. At the same
+              time, we will be conducting server maintenance. We apologize for
+              the inconvenience. Please see the information page for details.
+              <a href="https://t.co/7Cih7vc1Vv">https://t.co/7Cih7vc1Vv</a>
+            </p>
+            &mdash; FROMSOFTWARE PLAYER SUPPORT (@fromsoftware_sp)
+            <a
+              href="https://twitter.com/fromsoftware_sp/status/1328890949049536513?ref_src=twsrc%5Etfw"
+              >November 18, 2020</a
+            >
+          </blockquote>
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
+        <div class="tweet twitter3 col-lg-4 col-md-4 col-sm-12">
+          <blockquote class="twitter-tweet">
+            <p lang="ja" dir="ltr">
+              『SEKIRO: SHADOWS DIE TWICE GAME OF THE YEAR
+              EDITION』の製品アンケートを実施中です。プレイされた方もそうでない方も、よろしければぜひ、ご参加ください。<a
+                href="https://t.co/1lfmPHk6fa"
+                >https://t.co/1lfmPHk6fa</a
+              >
+              <a href="https://t.co/YF0eN6PJKX">pic.twitter.com/YF0eN6PJKX</a>
+            </p>
+            &mdash; FROMSOFTWARE (@fromsoftware_pr)
+            <a
+              href="https://twitter.com/fromsoftware_pr/status/1324909474604175360?ref_src=twsrc%5Etfw"
+              >November 7, 2020</a
+            >
+          </blockquote>
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
+      </div>
+      <!--Partie NewsLetter-->
+      <div id="newsletter">
+        <div id="newstext" class="text-center">
+          <h3>
+            Inscris-toi à <span class="text-danger">notre newsletter !</span>
+          </h3>
+          <p>
+            et reçois les dernières
+            <span class="text-warning">nouveautés</span>.
+          </p>
+        </div>
+        <form>
+          <div class="form-group text-center" id="emailform">
+            <input
+              type="email"
+              class="form-control"
+              id="emailInput"
+              aria-describedby="emailHelp"
+              maxlength="50"
+              size="50"
+              placeholder="Ton adresse mail"
+            />
+            <button type="button" id="emailButton" class="btn btn-danger">
+              Valider l'inscription
+            </button>
+          </div>
+        </form>
+      </div>
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2 col-md-2 paddingSupp">
+              <img src="assets/img/logoFooter.png" alt="logo équipe" />
+            </div>
+            <div class="col-sm-3 col-md-3 paddingSuppInf">
+              <h6>Accueil du site web</h6>
+            </div>
+            <div class="col-xs-3 col-md-3 paddingSuppInf">
+              <h6>À propos de nous</h6>
+            </div>
+            <div class="col-xs-3 col-md-3 paddingSuppInf">
+              <h6>Configurations requises</h6>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-12 order-md-1 order-sm-2 order-2">
+              <p class="copyright-text">
+                Copyright &copy; 2021 All Rights Reserved by
+                <a href="https://lamanu.fr/">La Manu</a>.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 order-md-2 order-sm-1 order-1">
+              <ul class="social-icons">
+                <li>
+                  <a class="facebook" href="#"
+                    ><i class="fab fa-facebook-square fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="twitter" href="#"
+                    ><i class="fab fa-twitter-square fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="steam" href="#"
+                    ><i class="fab fa-steam-square fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="linkedin" href="#"
+                    ><i class="fab fa-linkedin fa-2x"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

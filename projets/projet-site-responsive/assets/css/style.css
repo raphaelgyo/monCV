@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+
+/* BODY */
+
+* {
+  padding: 0;
+  margin: 0;
+  cursor: url('../img/cursor.ico'), pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: #ff3232;
+}
+
+header {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header img {
+  width: 55px;
+  height: 55px;
+  margin-right: 13%;
+  margin-left: 5% !important;
+}
+
+.customMarg {
+  margin-right: 10%;
+}
+
+.navbarCustomNB {
+  margin-left: auto !important;
+}
+
+header ul a {
+  padding-right: 35px !important;
+  padding-left: 35px !important;
+  color: white;
+  text-align: center;
+}
+
+header nav a,
+.fa-arrow-down {
+  color: white;
+}
+
+header nav a:hover {
+  color: #ffffff;
+  border-radius: 2px;
+  background-image: url('../img/hover.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+footer h6:hover {
+  background-image: url('../img/hover.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.fab {
+  color: #ff3232;
+}
+
+/* VOICI L'ATTRIBUT DE CLASSE CSS QUI POSE PROBLEME POUR LE COLLAPSE DU MENU BURGER !!!!! */
+.firstContainerNicolas {
+  height: 100vh;
+  background-size: cover;
+  /* position: absolute; */
+  top: 0;
+}
+
+#TitreFirstPageN {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 80px !important;
+  margin-bottom: 0px !important;
+}
+
+#TitreFirstPageNB {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Crimson Text', serif;
+  font-size: 25px !important;
+}
+/* Modif padding top 20% en */
+.rowExept {
+  margin-top: 12% !important;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #cf866c;
+  background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+  background-color: #d0451b;
+  border-radius: 3px;
+  border: 1px solid #942911;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Crimson Text', serif;
+  font-size: 25px;
+  padding: 15px 50px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #854629;
+  margin-top: 2%;
+  text-transform: uppercase;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.dropdown-toggle {
+  border-right: 1px solid white;
+  border-radius: 1px;
+  margin-right: 15% !important;
+}
+
+.underTitle {
+  margin-top: 13%;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px !important;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+/* FOOTER */
+
+.site-footer {
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+  font-family: 'Crimson Text', serif;
+}
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.site-footer a {
+  color: #737373;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  display: block;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+footer div li {
+  margin-right: 5%;
+}
+
+footer img {
+  height: 60px;
+  width: 60px;
+}
+
+.paddingSupp {
+  padding-left: 55px !important;
+}
+
+.paddingSuppInf {
+  padding-top: 15px !important;
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+
+/* CSS Carousel */
+#carousel {
+  background-image: url('../img/Sekiro_36.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#carousel h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 80px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+}
+
+#play,
+#pause,
+#next,
+#prev {
+  /* display: inline-block; */
+  color: #f8fafa;
+  font-size: 2rem;
+  margin: 1rem;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px black;
+}
+
+#play:hover,
+#pause:hover,
+#next:hover,
+#prev:hover {
+  color: #ad9664;
+}
+
+#galery img {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px -1px #192028;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+#galery img.show {
+  opacity: 1;
+  transition: opacity 0.6s ease-in-out;
+}
+
+#galery img.hidden {
+  display: none;
+}
+/* Fin CSS Carousel */
+
+/* CSS Config requises */
+#section-specs {
+  background-image: url('../img/Sekiro_30.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#specs {
+  background-color: rgba(239, 233, 233, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px -1px #192028;
+}
+
+#specs h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 80px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+#specs h2 {
+  text-transform: uppercase;
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+  color: #ad9664;
+  text-shadow: 1px 1px 2px black;
+}
+
+#specs h3 {
+  text-transform: uppercase;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  color: #ad9664;
+  text-shadow: 1px 1px 2px black;
+}
+
+#specs p {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  color: #f8fafa;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Fin CSS Config requises */
+
+/* Début section histoire */
+#about {
+  background-color: black;
+  height: 100vh;
+}
+
+#about h2 {
+  font-family: 'Crimson Text', serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #ad9664;
+  margin-top: 50px;
+}
+
+#about p {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  color: #f8fafa;
+  padding: 0 1em 2em 3em;
+}
+
+.video-about {
+  width: 100%;
+}
+/* Fin section histoire */
+
+/*--video--*/
+
+#about-vid {
+  background-image: url('../img/image-video.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-video {
+  margin-top: 10%;
+  width: 80%;
+  border: 1px solid #c82424;
+  box-sizing: border-box;
+  box-shadow: -22px -20px 0px #c82424;
+}
+
+#about-text h3 {
+  font-family: 'Crimson text', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: -3px 0px 0px #000000;
+}
+
+#about-text h5 {
+  font-family: 'Crimson text', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: -3px 0px 0px #000000;
+}
+
+#about-text p {
+  font-family: 'Crimson text', serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 25px;
+  color: #ffffff;
+  text-shadow: -2px 0px 0px #000000;
+}
+
+.textModifBER {
+  padding-top: 30px;
+  font-size: 20px !important;
+}
+
+#about-line {
+  background: #ffffff;
+  width: 80%;
+  margin-bottom: 10%;
+}
+
+/*--awards--*/
+#awards {
+  background-image: url('../img/bg-award.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.award span {
+  font-family: 'Crimson Text', serif;
+  font-style: normal;
+  font-weight: normal;
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.aw-top {
+  font-size: 30px;
+}
+
+.aw-top img {
+  width: 50%;
+}
+
+.aw-middle {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 2vw;
+}
+
+.aw-middle img {
+  height: 100%;
+  width: 70%;
+}
+
+.tweet {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.twitter-tweet {
+  border-radius: 15px;
+  box-shadow: 10px 1em 1em #111111;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.customSizeTMLP {
+  font-size: 36px;
+}
+
+/*NewsLetter*/
+#newsletter {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.customReign {
+  padding-top: 1.7% !important;
+}
+
+#newstext {
+  margin-bottom: 3%;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1rem;
+  color: #ffffff;
+  text-shadow: -2px 0px 0px #000000;
+}
+
+#newstext p {
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
+  text-transform: uppercase;
+}
+
+#newsletter form {
+  padding-bottom: 5%;
+}
+
+#emailInput {
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2%;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 992px) {
+  .site-footer [class^='col-'] {
+    margin-bottom: 30px;
+  }
+
+  #carousel h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .twitter3 {
+    display: none;
+  }
+
+  #about {
+    background-color: black;
+    height: auto;
+  }
+
+  #about h2 {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ad9664;
+    margin-top: 30px;
+  }
+
+  #about p {
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color: #f8fafa;
+    padding: 0 1em 0 3em;
+    margin-top: 10px;
+  }
+
+  #prev,
+  #next {
+    display: none;
+  }
+
+  #carousel {
+    background-image: url('../img/Sekiro_36.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #TitreFirstPageN {
+    font-size: 60px !important;
+    margin-top: 10%;
+  }
+
+  #specs {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .twitter3 {
+    display: none;
+  }
+
+  .twitter2 {
+    display: none;
+  }
+
+  .site-footer {
+    padding-bottom: 0;
+  }
+
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+
+  #prev,
+  #next {
+    display: none;
+  }
+  #carousel {
+    background-image: url('../img/Sekiro_36.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+  #carousel h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #section-specs {
+    background-image: url('../img/Sekiro_30.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+
+  #specs h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  #specs h2 {
+    text-transform: uppercase;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color: #ad9664;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  #specs h3 {
+    text-transform: uppercase;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    color: #ad9664;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  #specs p {
+    font-family: 'Crimson Text', serif;
+    font-size: 14px;
+    color: #f8fafa;
+    text-shadow: 1px 1px 2px black;
+  }
+  #about {
+    background-color: black;
+    height: auto;
+    padding-bottom: 5%;
+  }
+
+  #about h2 {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ad9664;
+    margin-top: 30px;
+    padding: 5%;
+  }
+
+  #about p {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    color: #f8fafa;
+    padding: 0 1em 0 3em;
+    margin-top: 10px;
+  }
+
+  #marginCustomBE {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .awardsCustomBREEH {
+    font-size: 28px;
+  }
+
+  #emailInput {
+    width: 50%;
+  }
+
+  .aw-top {
+    font-size: 30px;
+  }
+}
