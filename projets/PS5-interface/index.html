@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- cdnjs -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        />
+        <!-- css -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+
+        <title>PlayStation 5</title>
+    </head>
+    <body style="background-image: url('assets/images/bg-dirt-5.png')">
+        <header>
+            <div class="left">
+                <a href="#" style="color: white">Jeux</a>
+                <a href="#" style="font-weight: 100">Contenu multimédia</a>
+            </div>
+            <div class="right">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-cog"></i></a>
+                <a href="#"
+                    ><img
+                        src="assets/images/profil-pic.jpg"
+                        style="height: 50px; border-radius: 50px"
+                /></a>
+                <span class="clock">16:08</span>
+            </div>
+        </header>
+
+        <div id="carousel">
+            <div class="hideLeft" id="sackboy-game">
+                <section>
+                    <img
+                        src="assets/images/game-thumbnail-sackboy.png"
+                        id="sackboy"
+                    />
+                    <span>Sackboy: A big Adventure™ | PS5</span>
+                </section>
+                <div class="game-info">
+                    <div class="left">
+                        <img src="assets/images/logo-sackboy.png" />
+                        <h1 class="resume">
+                            Accompagnez Sackboy dans cet épique jeu de
+                            plateforme en 3D
+                        </h1>
+                        <div class="button-left">
+                            <a href="#">Jouer</a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="cover">
+                            <span class="complet">Jeu complet</span>
+                            <span class="update"
+                                >Mise à niveau PS gratuite</span
+                            >
+                        </div>
+                        <div class="trophy">
+                            <i class="fas fa-trophy"></i>
+                            <div class="progress">
+                                <span>Progression</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="win">
+                                <span>Remportés</span>
+                                <span>46/46</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prevLeftSecond" id="spider-man-game">
+                <section>
+                    <img
+                        src="assets/images/game-thumbnail-spider-man.png"
+                        id="spider-man"
+                    />
+                    <span>Marvel's Spider-Man: Miles Morales | PS5</span>
+                </section>
+                <div class="game-info">
+                    <div class="left">
+                        <img src="assets/images/logo-spider-man.png" />
+                        <h1 class="resume">
+                            Dépassez vos limites. Soyez-vous-mêmes.
+                        </h1>
+                        <div class="button-left">
+                            <a href="#">Jouer</a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="cover">
+                            <span class="complet">Jeu complet</span>
+                            <span class="update"
+                                >Mise à niveau PS gratuite</span
+                            >
+                        </div>
+                        <div class="trophy">
+                            <i class="fas fa-trophy"></i>
+                            <div class="progress">
+                                <span>Progression</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="win">
+                                <span>Remportés</span>
+                                <span>50/50</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prev" id="demons-souls-game">
+                <section>
+                    <img
+                        src="assets/images/game-thumbnail-demons-souls.png"
+                        id="demons-souls"
+                    />
+                    <span>Demon's Souls™ | PS5</span>
+                </section>
+                <div class="game-info">
+                    <div class="left">
+                        <img src="assets/images/logo-demons-souls.png" />
+                        <h1 class="resume">
+                            Le défi originel reconstruit dans toute sa
+                            brutalité.
+                        </h1>
+                        <div class="button-left">
+                            <a href="#">Jouer</a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="cover">
+                            <span class="complet">Jeu complet</span>
+                            <span class="update"
+                                >Mise à niveau PS gratuite</span
+                            >
+                        </div>
+                        <div class="trophy">
+                            <i class="fas fa-trophy"></i>
+                            <div class="progress">
+                                <span>Progression</span>
+                                <span>79%</span>
+                            </div>
+                            <div class="win">
+                                <span>Remportés</span>
+                                <span>30/38</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="selected" id="dirt-5-game">
+                <section>
+                    <img
+                        src="assets/images/game-thumbnail-dirt-5.png"
+                        id="dirt-5"
+                    />
+                    <span>DIRT 5™ | PS5</span>
+                </section>
+                <div class="game-info">
+                    <div class="left">
+                        <img src="assets/images/logo-dirt-5.png" />
+                        <h1 class="resume">
+                            Partez à la conquête des routes les plus somptueuses
+                            du monde et conduisez des voitures emblématiques
+                            dans une toute nouvelle expérience de course
+                            tout-terrain.
+                        </h1>
+                        <div class="button-left">
+                            <a href="#">Jouer</a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="cover">
+                            <span class="complet">Jeu complet</span>
+                            <span class="update"
+                                >Mise à niveau PS gratuite</span
+                            >
+                        </div>
+                        <div class="trophy">
+                            <i class="fas fa-trophy"></i>
+                            <div class="progress">
+                                <span>Progression</span>
+                                <span>6%</span>
+                            </div>
+                            <div class="win">
+                                <span>Remportés</span>
+                                <span>3/21</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="next" id="yakuza-game">
+                <section>
+                    <img
+                        src="assets/images/game-thumbnail-yakuza.png"
+                        id="yakuza"
+                    />
+                    <span>Yakuza: Like A Dragon | PS4</span>
+                </section>
+                <div class="game-info">
+                    <div class="left">
+                        <img src="assets/images/logo-yakuza.png" />
+                        <h1 class="resume">Élevez-vous comme un dragon.</h1>
+                        <div class="button-left">
+                            <a href="#">Jouer</a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="cover">
+                            <span class="complet">Jeu complet</span>
+                            <span class="update"
+                                >Mise à niveau PS gratuite</span
+                            >
+                        </div>
+                        <div class="trophy">
+                            <i class="fas fa-trophy"></i>
+                            <div class="progress">
+                                <span>Progression</span>
+                                <span>51%</span>
+                            </div>
+                            <div class="win">
+                                <span>Remportés</span>
+                                <span>32/63</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nextRightSecond" id="XIII-game">
+                <section>
+                    <img
+                        src="assets/images/game-thumbnail-XIII.png"
+                        id="XIII"
+                    />
+                    <span>XIII | PS4</span>
+                </section>
+                <div class="game-info">
+                    <div class="left">
+                        <img src="assets/images/logo-XIII.png" />
+                        <h1 class="resume">
+                            Vous incarnez "XIII”, un homme sans identité au
+                            travers d'une campagne solo aux multiples
+                            rebondissements.
+                        </h1>
+                        <div class="button-left">
+                            <a href="#">Jouer</a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="cover">
+                            <span class="complet">Jeu complet</span>
+                            <span class="update"
+                                >Mise à niveau PS gratuite</span
+                            >
+                        </div>
+                        <div class="trophy">
+                            <i class="fas fa-trophy"></i>
+                            <div class="progress">
+                                <span>Progression</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="win">
+                                <span>Remportés</span>
+                                <span>30/40</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hideRight" id="watch-dogs-game">
+                <section>
+                    <img
+                        src="assets/images/game-thumbnail-watch-dogs.png"
+                        id="watch-dogs"
+                    />
+                    <span>Watch Dogs®: Legion | PS4</span>
+                </section>
+                <div class="game-info">
+                    <div class="left">
+                        <img
+                            src="assets/images/game-thumbnail-watch-dogs.png"
+                        />
+                        <h1 class="resume">Bienvenue dans la résistance.</h1>
+                        <div class="button-left">
+                            <a href="#">Jouer</a>
+                            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="cover">
+                            <span class="complet">Jeu complet</span>
+                            <span class="update"
+                                >Mise à niveau PS gratuite</span
+                            >
+                        </div>
+                        <div class="trophy">
+                            <i class="fas fa-trophy"></i>
+                            <div class="progress">
+                                <span>Progression</span>
+                                <span>97%</span>
+                            </div>
+                            <div class="win">
+                                <span>Remportés</span>
+                                <span>39/40</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/carousel.js"></script>
+        <script>
+            $('#sackboy').on('click', function () {
+                $('body').css(
+                    'background-image',
+                    'url(assets/images/bg-sackboy.png)'
+                );
+            });
+            $('#spider-man').on('click', function () {
+                $('body').css(
+                    'background-image',
+                    'url(assets/images/bg-spider-man.png)'
+                );
+            });
+            $('#demons-souls').on('click', function () {
+                $('body').css(
+                    'background-image',
+                    'url(assets/images/bg-demons-souls.png)'
+                );
+            });
+            $('#dirt-5').on('click', function () {
+                $('body').css(
+                    'background-image',
+                    'url(assets/images/bg-dirt-5.png)'
+                );
+            });
+            $('#yakuza').on('click', function () {
+                $('body').css(
+                    'background-image',
+                    'url(assets/images/bg-yakuza.png)'
+                );
+            });
+            $('#XIII').on('click', function () {
+                $('body').css(
+                    'background-image',
+                    'url(assets/images/bg-XIII.png)'
+                );
+            });
+            $('#watch-dogs').on('click', function () {
+                $('body').css(
+                    'background-image',
+                    'url(assets/images/bg-watch-dogs.png)'
+                );
+            });
+        </script>
+    </body>
+</html>
